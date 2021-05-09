@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "44b3952b-ef44-44b1-a63c-3a3158caa9fb",
+		"name": "openWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getWeather",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": " aca1f18f643dcf6ad96f4e5d922b7dd7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/weather?cityId=Melbourne, AU",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "cityId",
+							"value": "Melbourne, AU"
+						}
+					]
+				},
+				"description": "getWeatherbyCity,Country"
+			},
+			"response": []
+		}
+	]
+}

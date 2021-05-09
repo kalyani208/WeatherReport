@@ -1,0 +1,29 @@
+com/weather/model/Weather.java
+ com.weather.model.Weather
+com/weather/security/APIKeyFilter.java
+ com.weather.security.APIKeyFilter
+com/weather/RestServiceApplication.java
+ com.weather.RestServiceApplication
+com/weather/model/Clouds.java
+ com.weather.model.Clouds
+com/weather/model/Response.java
+ com.weather.model.Response
+com/weather/repository/WeatherRepository.java
+ com.weather.repository.WeatherRepository
+com/weather/model/Wind.java
+ com.weather.model.Wind
+com/weather/model/Coord.java
+ com.weather.model.Coord
+com/weather/security/SecurityConfig.java
+ com.weather.security.SecurityConfig
+ com.weather.security.SecurityConfig$1
+com/weather/model/Report.java
+ com.weather.model.Report
+com/weather/model/Sys.java
+ com.weather.model.Sys
+com/weather/model/Main.java
+ com.weather.model.Main
+com/weather/restservice/ReportService.java
+ com.weather.restservice.ReportService
+com/weather/restservice/WeatherResource.java
+ com.weather.restservice.WeatherResource

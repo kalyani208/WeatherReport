@@ -15,6 +15,7 @@ It will respond with a weather description String.
 
 The `cityId` parameter value overrides the default value of `Melbourne, AU`
 == Build the app
+$ cd rest-service
 $ ./gradlew - will run the default build
 $ ./gradlew bootRun -- will start the application on 8080 port.
 
