@@ -1,0 +1,27 @@
+:spring_version: current
+:toc:
+:project_id: weather-rest
+:icons: font
+:source-highlighter: prettify
+
+== What You Will Build
+
+You will build a service that will accept HTTP GET requests at
+`http://localhost:8080/api/weather?cityId=Melbourne, AU`.
+headers : x-api-key : "aca1f18f643dcf6ad96f4e5d922b7dd7".
+
+It will respond with a weather description String.
+
+
+The `cityId` parameter value overrides the default value of `Melbourne, AU`
+== Build the app
+$ ./gradlew - will run the default build
+$ ./gradlew bootRun -- will start the application on 8080 port.
+
+== testing using postman
+
+A sample postman collection included in the project,
+http://localhost:8080/api/weather?cityId={cityname, countryCode}
+
+expects the parameter format : cityname, CountryCode
+the appid used : aca1f18f643dcf6ad96f4e5d922b7dd7.
